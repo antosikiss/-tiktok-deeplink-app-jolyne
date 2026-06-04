@@ -11,7 +11,7 @@ TIKTOK_UA_PATTERNS = [
 
 FINAL_URL = 'https://CHANGE_THIS_LINK'
 
-INSTRUCTIONAL_HTML = """
+INSTRUCTIONAL_HTML = "https://slt.bio/jolynemuller""
 <!DOCTYPE html>
 <html lang="de">
 <head>
