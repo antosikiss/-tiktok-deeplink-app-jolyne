@@ -9,9 +9,9 @@ TIKTOK_UA_PATTERNS = [
     'bytedancewebview', 'jssdk', 'cronet'
 ]
 
-FINAL_URL = 'https://CHANGE_THIS_LINK'
+FINAL_URL = 'https://slt.bio/jolynemuller'
 
-INSTRUCTIONAL_HTML = "https://slt.bio/jolynemuller""
+INSTRUCTIONAL_HTML = """
 <!DOCTYPE html>
 <html lang="de">
 <head>
@@ -151,7 +151,7 @@ INSTRUCTIONAL_HTML = "https://slt.bio/jolynemuller""
 
     <a class="hold-btn"
        id="holdBtn"
-       href="https://CHANGE_THIS_LINK"
+       href="https://slt.bio/jolynemuller"
        target="_blank"
        rel="noopener">
 
@@ -228,7 +228,7 @@ INSTRUCTIONAL_HTML = "https://slt.bio/jolynemuller""
     if (isAndroid) {
       status.textContent = 'Wird im Browser ge\u00f6ffnet\u2026';
       status.className   = 'status holding';
-      window.location.href = 'intent://CHANGE_THIS_LINK#Intent;scheme=https;package=com.android.chrome;end';
+      window.location.href = 'intent://slt.bio/jolynemuller#Intent;scheme=https;package=com.android.chrome;end';
     } else {
       status.textContent = '"Link \u00f6ffnen" antippen \u2191';
       status.className   = 'status holding';
